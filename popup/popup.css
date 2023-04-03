@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Miriam+Libre&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: #eee;
+
+    width: 16rem;
+    /* height: 4rem; */
+
+    direction: rtl;
+    font-family: 'Miriam Libre', sans-serif;
+
+    padding: 10px;
+}
+
+.filter {
+    margin: 4px 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+button {
+    padding: 5px 8px;
+    /* font-size: 24px; */
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+  }
+  
+
+button:active:not(.selected) {
+background-color: rgb(21, 149, 104);
+transform: translateY(1px);
+}
+
+button.selected {
+    background-color: #d68e30;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+}
+
+h2 {
+    margin: 5px 0;
+    font-weight: 500;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(225, 58, 172);
+}
+
+div {
+    font-size: 1rem;
+}
+
+.count {
+    font-family: 'Changa One', cursive;
+    color: rgb(246, 157, 246);
+}
+
+footer {
+    padding-top: 10px;
+}
+
+.note {
+    color: rgb(221, 89, 89);
+    font-weight: bold;
+    font-size: larger;
+}

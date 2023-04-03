@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <title>Chrome Addon v3: popup</title>
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    <h1>🗃️ נתוני מחיקות</h1>
+
+    <div class="filter">
+        <button method="daily">היום</button>
+        <button method="monthly">החודש</button>
+        <button class="selected" method="all">כללי</button>
+    </div>
+
+    <h2>שאלות</h2>
+    <div class="ask"><span class="count"></span> שאלות שנמחקו</div>
+    <h2>תשובות</h2>
+    <div class="ans"><span class="count"></span> תשובות שנמחקו</div>
+    <h2>תודות</h2>
+    <div class="thanksmsg"><span class="count"></span> תודות שנמחקו</div>
+    <h2>חברים לעט</h2>
+    <div class="penfriendsitem"><span class="count"></span> מסרים בחברים לעט שנמחקו</div>
+
+    <footer>
+        <span class="note">הערה</span> הנתונים נרשמים מהרגע שאתם מורידים את התוסף והם מתעדכנים רק אם מוחקים דברים במכשיר שיש בו את התוסף (לא עובד בטלפון 🥹)
+    </footer>
+</body>
+</html> 

@@ -25,7 +25,7 @@ Counts what you do on [stips](https://stips.co.il), so that you will realize you
 7. Refresh stips and enjoy 😇
 
 
-![howto.png](howto.png)
+![https://i.imgur.com/vY5l2da.png](https://i.imgur.com/vY5l2da.png)
 
 </details>
 
@@ -44,7 +44,7 @@ Counts what you do on [stips](https://stips.co.il), so that you will realize you
 7. לרענן את סטיפס
 
 
-![howto(hebrew).png](howto(hebrew).png)
+![https://i.imgur.com/wx7cT4B.png](https://i.imgur.com/wx7cT4B.png)
 
 </details>
 
